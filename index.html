@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>İkinci Bahar - Menü</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Logo Bölümü -->
+        <header class="logo-section">
+            <div class="logo-container">
+                <img src="images/ikincibaharlogo.png" alt="İkinci Bahar Logo" class="logo-image">
+                <p>Lezzetli Anların Adresi</p>
+            </div>
+        </header>
+
+        <!-- Menü Kategorileri -->
+        <section class="menu-categories">
+            <h2>Menü Kategorileri</h2>
+            <div class="category-grid">
+                <div class="category-card" data-category="sicak-icecekler">
+                    <div class="card-icon">
+                        <i class="fas fa-coffee"></i>
+                    </div>
+                    <h3>Sıcak İçecekler</h3>
+                    <p>Çay, kahve ve sıcak içecek çeşitleri</p>
+                </div>
+
+                <div class="category-card" data-category="soguk-icecekler">
+                    <div class="card-icon">
+                        <i class="fas fa-glass-whiskey"></i>
+                    </div>
+                    <h3>Soğuk İçecekler</h3>
+                    <p>Meyve suları, limonata ve soğuk içecekler</p>
+                </div>
+
+                <div class="category-card" data-category="kahve-cesitleri">
+                    <div class="card-icon">
+                        <i class="fas fa-mug-hot"></i>
+                    </div>
+                    <h3>Kahve Çeşitleri</h3>
+                    <p>Espresso, latte, cappuccino ve daha fazlası</p>
+                </div>
+
+                <div class="category-card" data-category="vitamin-kosesi">
+                    <div class="card-icon">
+                        <i class="fas fa-apple-alt"></i>
+                    </div>
+                    <h3>Vitamin Köşesi</h3>
+                    <p>Sağlıklı ve vitaminli içecekler</p>
+                </div>
+
+                <div class="category-card" data-category="kahvaltiliklar">
+                    <div class="card-icon">
+                        <i class="fas fa-egg"></i>
+                    </div>
+                    <h3>Kahvaltılıklar</h3>
+                    <p>Geleneksel ve modern kahvaltı seçenekleri</p>
+                </div>
+
+                <div class="category-card" data-category="yiyecekler">
+                    <div class="card-icon">
+                        <i class="fas fa-drumstick-bite"></i>
+                    </div>
+                    <h3>Yiyecekler</h3>
+                    <p>Ana yemekler ve özel lezzetler</p>
+                </div>
+
+                <div class="category-card" data-category="pasta-cesitleri">
+                    <div class="card-icon">
+                        <i class="fas fa-birthday-cake"></i>
+                    </div>
+                    <h3>Pasta Çeşitleri</h3>
+                    <p>Tatlı ve pasta çeşitleri</p>
+                </div>
+
+                <div class="category-card" data-category="fast-food">
+                    <div class="card-icon">
+                        <i class="fas fa-hamburger"></i>
+                    </div>
+                    <h3>Fast Food</h3>
+                    <p>Hızlı ve lezzetli fast food seçenekleri</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Menü Modal -->
+    <div class="modal" id="menuModal">
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <div class="modal-header">
+                <h2 id="modalTitle">Menü</h2>
+            </div>
+            <div class="modal-body">
+                <div class="menu-images" id="menuImages">
+                    <!-- Resimler JavaScript ile dinamik olarak yüklenecek -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html> 
